@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<page subtype="dropdownlist" scrollable="false" pageload="script">
+<title>Законы отражения и преломления</title>
+<content>
+<script randomization="false">
+ <![CDATA[	
+function pageload() {
+ try {
+ if (typeof globalParam.ugolOtrGip==="undefined" || typeof globalParam.ugolPrelomGip==="undefined" || typeof globalParam.ugolPredelOtrGip==="undefined") {
+ showCustomDialog("Необходимо обязательно сформулировать гипотезу. Заполните пропуски в тексте на сцене 3.1.", function() {
+ showSlideById("383206");
+ });
+ return false;
+ } else {
+ return true;
+ }
+ } catch (e) {
+ return true;
+ }
+}
+
+]]>
+</script>
+<conditions>
+ <p>На столе стоит сосуд с зеркальным дном и матовыми стенками. На дно пустого сосуда падает луч света&#160;1. На стенке&#160;<m>CD</m> сосуда при этом можно наблюдать «зайчик» – блик отражённого луча. В&#160;сосуд наливают некоторое количество воды. Как при этом изменяются следующие физические величины: угол падения луча на дно, высота точки нахождения «зайчика», расстояние от точки отражения луча от дна сосуда до&#160;стенки&#160;<m>CD</m>? Отражением луча от поверхности жидкости пренебречь.</p>
+ <table invisible="true"><tr><td>
+ <figure>
+ <object border="1" width="300" height="200" file="383222.jpg"/>
+ </figure></td>
+ <td width="50"></td><td>
+ <figure>
+ <object border="1" width="300" height="200" file="383223.jpg"/>
+ </figure></td></tr></table>
+</conditions>
+<dropdownlist autofill="yes" mix="false">
+ <sentence>
+ <bullet>
+ <li>Угол падения луча на дно <field number="1"/>.</li>
+ <li>Высота точки нахождения «зайчика» <field number="2"/>.</li>
+ <li>Расстояние от точки отражения луча от дна до стенки <m>CD</m>
+ <field number="3"/>.</li>
+ </bullet>
+ </sentence>
+ <word number="1">
+ <variant valid="false"><varianttext>увеличится</varianttext></variant>
+ <variant valid="true"><varianttext>уменьшится</varianttext></variant>
+ <variant valid="false"><varianttext>не изменится</varianttext></variant>
+ </word>
+ <word number="2">
+ <variant valid="true"><varianttext>увеличится</varianttext></variant>
+ <variant valid="false"><varianttext>уменьшится</varianttext></variant>
+ <variant valid="false"><varianttext>не изменится</varianttext></variant>
+ </word>
+ <word number="3">
+ <variant valid="true"><varianttext>увеличится</varianttext></variant>
+ <variant valid="false"><varianttext>уменьшится</varianttext></variant>
+ <variant valid="false"><varianttext>не изменится</varianttext></variant>
+ </word>
+</dropdownlist>
+</content>
+</page>

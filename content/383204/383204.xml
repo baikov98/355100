@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<page subtype="text" scrollable="false">
+<title>Краткая теория</title>
+<content>
+<tabs width="900">
+ <figure>
+ <caption>Теория</caption>
+ <asset>
+ <p>В однородной среде свет распространяется <term><termname>прямолинейно</termname>прямолинейно</term>.</p>
+ <p>Прямолинейностью распространения света объясняется образование <term><termname>тени</termname>тени</term> – области, куда не поступает свет. </p>
+ <p>Если расстояние между источником света и&#160;экраном намного больше, чем размеры источника, образуется тень.</p>
+ <p>Если размеры источника света сравнимы с расстоянием до экрана, вокруг тени на экране образуется частично освещённое пространство&#160;– <term><termname>полутень</termname>полутень</term>.</p>
+ <table invisible="true"><tr><td width="420"><figure>
+ <object border="1" width="400" height="280" file="383218.jpg"/>
+ </figure>
+ <p align="center"><m>S</m> – источник света. <m>A</m> и <m>D</m> – границы предмета. <m>B</m> и <m>C</m> – границы тени </p>
+ </td>
+ <td width="50"></td><td width="420"><figure>
+ <object border="1" width="400" height="280" file="383219.jpg"/>
+ </figure>
+ <p align="center">Области <m>A</m> и <m>B</m> – полутень</p>
+ </td></tr></table>
+ </asset>
+ </figure>
+ <figure>
+ <caption>Отражение и преломление</caption>
+ <asset>
+ <table invisible="true"><tr><td align="justify">
+ <p>Вверху среда с показателем преломления&#160;<m>n</m><sub>1</sub>. Внизу другая среда с&#160;показателем преломления&#160;<m>n</m><sub>2</sub>. Луч света падает на границу раздела двух сред под углом падения&#160;&#x03B1;. На границе раздела свет отражается под углом отражения&#160;&#x03B2; и&#160;преломляется под углом преломления&#160;&#x03B3;. </p>
+ <p>Абсолютный показатель преломления некоторой среды <math display="inline">
+ <mrow>
+ <mi>n</mi><mo>=</mo><mfrac>
+ <mi>c</mi>
+ <mi>&speed;</mi>
+ </mfrac><mtext>,</mtext>
+ </mrow>
+ </math> где <math display="inline">
+ <mi>c</mi>
+ </math> – скорость света в вакууме, <math display="inline">
+ <mi>&speed;</mi>
+ </math> – скорость света в&#160;данной среде.</p>
+ <p>Если <math display="inline">
+ <mrow>
+ <msub>
+ <mi>&speed;</mi>
+ <mn>1</mn>
+ </msub>
+ </mrow>
+ </math> и <math display="inline">
+ <mrow>
+ <msub>
+ <mi>&speed;</mi>
+ <mn>2</mn>
+ </msub>
+ </mrow>
+ </math> – скорости распространения света в&#160;первой и&#160;второй среде, а&#160;<math display="inline">
+ <mrow>
+ <msub>
+ <mi>n</mi>
+ <mn>1</mn>
+ </msub>
+ </mrow>
+ </math> и&#160;<math display="inline">
+ <mrow>
+ <msub>
+ <mi>n</mi>
+ <mn>2</mn>
+ </msub>
+ </mrow>
+ </math> – показатели преломления 
+данных сред, то&#160;закон преломления света можно записать следующим образом:</p>
+ <p align="center"><math display="inline">
+ <mrow>
+ <mfrac>
+ <mrow>
+ <mtext>sin&#160;</mtext><mi>α</mi></mrow>
+ <mrow>
+ <mtext>sin&#160;</mtext><mi>γ</mi></mrow>
+ </mfrac>
+ <mo>=</mo><mfrac>
+ <mrow>
+ <msub>
+ <mi>&speed;</mi>
+ <mn>1</mn>
+ </msub>
+ </mrow>
+ <mrow>
+ <msub>
+ <mi>&speed;</mi>
+ <mn>2</mn>
+ </msub>
+ </mrow>
+ </mfrac>
+ <mo>=</mo><mfrac>
+ <mrow>
+ <msub>
+ <mi>n</mi>
+ <mn>2</mn>
+ </msub>
+ </mrow>
+ <mrow>
+ <msub>
+ <mi>n</mi>
+ <mn>1</mn>
+ </msub>
+ </mrow>
+ </mfrac><mtext>.</mtext>
+ </mrow>
+ </math></p>
+ <p>Оптически более плотной считается среда, в&#160;которой скорость света меньше.</p>
+ </td><td width="15"></td>
+ <td><figure>
+ <object border="0" width="300" height="450" file="383220.png">
+ <label coords="176, 20">Плоскость</label>
+ <label coords="198, 43">падения</label>
+ <label coords="200, 80">Граница</label>
+ <label coords="201, 103">раздела</label>
+ <label coords="122, 155">&#x03B1;</label>
+ <label coords="161, 177">&#x03B2;</label>
+ <label coords="145, 274">&#x03B3;</label>
+ <label coords="48, 194"><m>n</m><sub>2</sub></label>
+ <label coords="48, 158"><m>n</m><sub>1</sub></label>
+ </object>
+ </figure></td></tr></table>
+ </asset>
+ </figure>
+ <figure>
+ <caption>Угол полного отражения </caption>
+ <asset>
+ <table invisible="true"><tr><td align="justify">
+ <p>Если свет переходит из оптически более плотной среды в оптически менее плотную, то угол преломления больше угла падения. При некотором угле падения угол преломления становится равным 90&#x00B0;&#160;– преломлённый луч распространяется вдоль границы раздела двух сред, свет не попадает во вторую среду. В&#160;результате свет полностью отражается от границы раздела в&#160;первую среду, происходит полное отражение света. 
+Наименьший угол падения	&#x03B1;<sub>0</sub>, при котором наступает полное отражение, называется <term><termname>предельным углом полного отражения</termname>предельным углом полного отражения</term>. Синус предельного угла полного отражения <math display="inline">
+ <mrow><mtext>sin&#160;</mtext>
+ <msub>
+ <mi>α</mi>
+ <mn>0</mn>
+ </msub>
+ <mo>=</mo><mfrac>
+ <mrow>
+ <msub>
+ <mi>n</mi>
+ <mn>2</mn>
+ </msub>
+ </mrow>
+ <mrow>
+ <msub>
+ <mi>n</mi>
+ <mn>1</mn>
+ </msub>
+ </mrow>
+ </mfrac><mtext>.</mtext>
+ </mrow>
+ </math>
+ </p>
+ </td><td width="15"></td>
+ <td valign="middle">
+ <figure>
+ <object border="1" width="400" height="350" file="383221.jpg"/>
+ </figure></td></tr></table>
+ </asset>
+ </figure>
+</tabs>
+</content>
+</page>

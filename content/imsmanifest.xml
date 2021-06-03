@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest
+    xmlns:msxsl="urn:schemas-microsoft-com:xslt"
+    xmlns:imsss="http://www.imsglobal.org/xsd/imsss"
+    xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+    xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3"
+    xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3"
+    xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" identifier="Physicon_IMUMK_Course_355100"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd" version="1">
+    <metadata>
+        <schema>ADL SCORM</schema>
+        <schemaversion>2004 3rd Edition</schemaversion>
+        <lom>
+            <general>
+                <title>
+                    <string>Проверка законов отражения и преломления света </string>
+                </title>
+                <description>
+                    <string />
+                </description>
+            </general>
+        </lom>
+    </metadata>
+    <technical>
+        <skin math="mathjax">board</skin>
+    </technical>
+    <educational>
+        <typicalLearningTime>
+            <duration />
+        </typicalLearningTime>
+    </educational>
+    <organizations default="Physicon_IMUMK_Course_Organisations_355100">
+        <organization identifier="Physicon_IMUMK_Course_Organisations_355100" subtype="test" courseclass="9" slideshow="false">
+            <item identifier="chapter_1">
+                <title>Организация работы</title>
+                <item identifier="item_1" subtype="text" identifierref="item_1" point="1">
+                    <title>Организация работы</title>
+                </item>
+            </item>
+            <item identifier="chapter_2">
+                <title>Подготовка к работе</title>
+                <item identifier="item_2" subtype="progress" identifierref="item_2" point="1">
+                    <title>Ход работы</title>
+                </item>
+                <item identifier="item_3" subtype="text" identifierref="item_3" point="1">
+                    <title>Краткая теория</title>
+                </item>
+                <item identifier="item_4" subtype="text" identifierref="item_4" point="1">
+                    <title>Инструкция</title>
+                </item>
+            </item>
+            <item identifier="chapter_3">
+                <title>Выполнение работы</title>
+                <item identifier="item_5" subtype="mixanswer" identifierref="item_5" point="1">
+                    <title>Формулирование гипотез</title>
+                </item>
+                <item identifier="item_6" subtype="mixanswer" identifierref="item_6" point="1">
+                    <title>Исследование зависимости углов отражения и преломления от угла падения</title>
+                </item>
+                <item identifier="item_7" subtype="mixanswer" identifierref="item_7" point="1">
+                    <title>Подтверждение гипотез</title>
+                </item>
+                <item identifier="item_8" subtype="singlechoice" identifierref="item_8" point="1">
+                    <title>Характер зависимости угла отражения от угла падения</title>
+                </item>
+                <item identifier="item_9" subtype="singlechoice" identifierref="item_9" point="1">
+                    <title>Характер зависимости угла преломления от угла падения</title>
+                </item>
+                <item identifier="item_10" subtype="mixanswer" identifierref="item_10" point="1">
+                    <title>Исследование зависимости предельного угла полного отражения от показателя преломления</title>
+                </item>
+                <item identifier="item_11" subtype="mixanswer" identifierref="item_11" point="1">
+                    <title>Подтверждение гипотез</title>
+                </item>
+                <item identifier="item_12" subtype="singlechoice" identifierref="item_12" point="1">
+                    <title>Характер зависимости предельного угла полного отражения от показателя преломления</title>
+                </item>
+                <item identifier="item_13" subtype="dropdownlist" identifierref="item_13" point="1">
+                    <title>Законы отражения и преломления</title>
+                </item>
+                <item identifier="item_14" subtype="singlechoice" identifierref="item_14" point="1">
+                    <title>Определения вида вещества</title>
+                </item>
+                <item identifier="item_15" subtype="conclusions" identifierref="item_15" point="1">
+                    <title>Выводы</title>
+                </item>
+            </item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_1" href="383202/383202.xml">
+            <file href="383202/383202.js"/>
+            <file href="383202/383202.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_2" href="383203/383203.xml">
+            <file href="383203/383203.js"/>
+            <file href="383203/383203.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_3" href="383204/383204.xml">
+            <file href="383204/383204.js"/>
+            <file href="383204/383204.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_4" href="383205/383205.xml">
+            <file href="383205/383205.js"/>
+            <file href="383205/383205.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_5" href="383206/383206.xml">
+            <file href="383206/383206.js"/>
+            <file href="383206/383206.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_6" href="383207/383207.xml">
+            <file href="383207/383207.js"/>
+            <file href="383207/383207.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_7" href="383208/383208.xml">
+            <file href="383208/383208.js"/>
+            <file href="383208/383208.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_8" href="383209/383209.xml">
+            <file href="383209/383209.js"/>
+            <file href="383209/383209.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_9" href="383210/383210.xml">
+            <file href="383210/383210.js"/>
+            <file href="383210/383210.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_10" href="383211/383211.xml">
+            <file href="383211/383211.js"/>
+            <file href="383211/383211.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_11" href="383212/383212.xml">
+            <file href="383212/383212.js"/>
+            <file href="383212/383212.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_12" href="383213/383213.xml">
+            <file href="383213/383213.js"/>
+            <file href="383213/383213.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_13" href="383214/383214.xml">
+            <file href="383214/383214.js"/>
+            <file href="383214/383214.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_14" href="383215/383215.xml">
+            <file href="383215/383215.js"/>
+            <file href="383215/383215.xml"/>
+        </resource>
+        <resource type="webcontent" adlcp:scormType="sco" identifier="item_15" href="383216/383216.xml">
+            <file href="383216/383216.js"/>
+            <file href="383216/383216.xml"/>
+        </resource>
+    </resources>
+</manifest>

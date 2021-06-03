@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<page subtype="mixanswer" scrollable="false" pageload="script">
+<title>Исследование зависимости углов отражения и преломления от угла падения</title>
+<content>
+<script randomization="false">
+ <![CDATA[	
+function pageload() {
+ try {
+ if (typeof globalParam.ugolOtrGip==="undefined" || typeof globalParam.ugolPrelomGip==="undefined" || typeof globalParam.ugolPredelOtrGip==="undefined") {
+ showCustomDialog("Необходимо обязательно сформулировать гипотезу. Заполните пропуски в тексте на сцене 3.1.", function() {
+ showSlideById("383206");
+ });
+ return false;
+ } else {
+ return true;
+ }
+ } catch (e) {
+ return true;
+ }
+}
+
+]]>
+</script>
+<conditions>
+ <tabs width="900" height="520">
+ <figure>
+ <caption>Параметры</caption>
+ <asset>
+ <p>Установите в модели параметры, указанные в таблице ниже:</p>
+ <table>
+ <tr><th>Показатель преломления первой среды <m>n</m><sub>1</sub></th><th>Показатель преломления второй среды <m>n</m><sub>2</sub></th></tr>
+ <tr><td>1</td><td><write>globalParam.opit1n1</write></td></tr>
+ </table>
+ <p>&#160;</p>
+ <p>Занесите в таблицу полученные в&#160;процессе моделирования значения угла отражения&#160;&#x03B2; и&#160;угла преломления&#160;&#x03B3; для каждого заданного значения угла падения&#160;&#x03B1;.</p>
+ <table>
+ <tr><th>&#x03B1;, &#x00B0;</th><td>5</td><td>15</td><td>25</td><td>35</td><td>45</td><td>55</td><td>65</td><td>75</td><td>85</td></tr>
+ <tr><th>&#x03B2;, &#x00B0;</th><td><input type="number" id="betaOpit11" width="70"/></td><td><input type="number" id="betaOpit12" width="70"/></td><td><input type="number" id="betaOpit13" width="70"/></td><td><input type="number" id="betaOpit14" width="70"/></td><td><input type="number" id="betaOpit15" width="70"/></td><td><input type="number" id="betaOpit16" width="70"/></td><td><input type="number" id="betaOpit17" width="70"/></td>
+ <td><input type="number" id="betaOpit18" width="70"/></td><td><input type="number" id="betaOpit19" width="70"/></td></tr>
+ <tr><th>&#x03B3;, &#x00B0;</th><td><input type="number" id="gamaOpit11" width="70"/></td><td><input type="number" id="gamaOpit12" width="70"/></td><td><input type="number" id="gamaOpit13" width="70"/></td><td><input type="number" id="gamaOpit14" width="70"/></td><td><input type="number" id="gamaOpit15" width="70"/></td><td><input type="number" id="gamaOpit16" width="70"/></td><td><input type="number" id="gamaOpit17" width="70"/></td>
+ <td><input type="number" id="gamaOpit18" width="70"/></td><td><input type="number" id="gamaOpit19" width="70"/></td></tr>
+ </table>
+ </asset>
+ </figure>
+ <figure>
+ <caption>Модель</caption>
+ <asset>
+ <figure align="center">
+ <object type="commonmodel" border="0" width="900" height="520" file="355120/355120.js"/>
+ </figure>
+ </asset>
+ </figure>
+ </tabs>
+</conditions>
+<mixanswer check="none" comment="none"/>
+</content>
+</page>

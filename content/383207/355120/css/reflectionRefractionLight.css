@@ -1,0 +1,150 @@
+.reflectionRefractionLight .animation .laserLight {
+    /*stroke: green;*/
+    stroke-linecap: round;
+    fill: none;
+}
+
+.reflectionRefractionLight .italicText {
+    font-style: italic;
+}
+
+.reflectionRefractionLight .deg {
+    margin-left: -6px;
+}
+
+.reflectionRefractionLight .mark-has-deg {
+    margin: 5px 0;
+}
+
+.reflectionRefractionLight .model-slider-slider .model-slider-scale .mark {
+    font-size: 19px !important;
+}
+
+.reflectionRefractionLight .mark-has-deg .mark {
+    margin-left: 5px;
+}
+
+.reflectionRefractionLight .animation .pane-content {
+    position: relative;
+}
+
+.reflectionRefractionLight .animation .canvasDynamic,
+.reflectionRefractionLight .animation .canvasLaser,
+.reflectionRefractionLight .animation .canvasTest {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.reflectionRefractionLight .animation .canvasLaser {
+    transform: rotate(90deg) scale(0.6);
+    top: 22px;
+    left: -60px;
+}
+
+.reflectionRefractionLight .animation .pane-content {
+    overflow: hidden;
+}
+
+.reflectionRefractionLight .animation .laser {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: rotate(0deg);
+    transform-origin: bottom right;
+    width: 0;
+}
+
+.reflectionRefractionLight .dual-horizontal-layout .pane-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.reflectionRefractionLight .dual-horizontal-layout .pane-content .row-view {
+    display: flex;
+    width: 150px;
+    height: 34px;
+}
+
+.reflectionRefractionLight .dual-horizontal-layout .angleParameters .pane-content {
+    padding-top: 2px;
+    justify-content: unset;
+}
+
+.reflectionRefractionLight .dual-horizontal-layout .angleParameters .pane-content .row-view {
+    width: 160px;
+    padding-left: 4px;
+    margin: 2px;
+}
+
+.reflectionRefractionLight .labelAngle {
+    display: flex;
+    margin-top: 0px;
+    padding-left: 8px;
+}
+
+.reflectionRefractionLight .row-view .label-view sub {
+    font-size: 14px !important;
+}
+
+.reflectionRefractionLight .labelAngle sub {
+    font-style: normal;
+}
+
+.reflectionRefractionLight .georgia {
+    font-family: Georgia;
+}
+
+.reflectionRefractionLight .label-view.hidden {
+    visibility: hidden;
+}
+
+.reflectionRefractionLight .label-view .reflect-status {
+    font-size: 24px;
+    line-height: 28px;
+}
+.reflectionRefractionLight .label-view .refract-status {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.reflectionRefractionLight .pane-content .labelAngle {
+    font-size: 24px;
+}
+
+.reflectionRefractionLight .reflect-status span {
+    white-space: normal;
+}
+
+.reflectionRefractionLight .label-view .refract-status {
+    white-space: normal;
+}
+
+.reflectionRefractionLight .label-inner sub {
+    padding-left: 4%;
+}
+
+.reflectionRefractionLight .angles sub {
+    padding-left: 2%;
+}
+
+.reflectionRefractionLight .label-inner .gammaSymbol {
+    padding-right: 2px;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+}
+
+.reflectionRefractionLight .refractiveIndexParameters .label-view {
+    padding-right: 8px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<page subtype="mixanswer" scrollable="false" pageload="script">
+<title>Исследование зависимости предельного угла полного отражения от показателя преломления</title>
+<content>
+<script randomization="false">
+ <![CDATA[	
+function pageload() {
+ try {
+ if (typeof globalParam.ugolOtrGip==="undefined" || typeof globalParam.ugolPrelomGip==="undefined" || typeof globalParam.ugolPredelOtrGip==="undefined") {
+ showCustomDialog("Необходимо обязательно сформулировать гипотезу. Заполните пропуски в тексте на сцене 3.1.", function() {
+ showSlideById("383206");
+ });
+ return false;
+ } else {
+ return true;
+ }
+ } catch (e) {
+ return true;
+ }
+}
+
+
+
+]]>
+</script>
+<conditions>
+ <tabs width="900" height="520">
+ <figure>
+ <caption>Параметры</caption>
+ <asset>
+ <p>Установите в модели параметры, указанные в таблице ниже:</p>
+ <table>
+ <tr><th>Показатель преломления второй среды <m>n</m><sub>2</sub></th></tr>
+ <tr><td>1</td></tr>
+ </table>
+ <p>&#160;</p>
+ <p>Луч света, проходя через первое вещество, преломляясь, выходит в&#160;воздух с&#160;показателем <nobr>преломления <m>n</m><sub>2</sub> = 1</nobr>. Вам дано три вещества с&#160;тремя различными показателями преломления&#160;<m>n</m><sub>1</sub>. Занесите в таблицу полученные в процессе моделирования значения предельного угла полного отражения &#x03B1;<sub>0</sub> для каждого значения показателя преломления&#160;<m>n</m><sub>1</sub>.</p>
+ <table>
+ <tr><th><m>n</m><sub>1</sub></th><td><write>globalParam.opit2n11</write></td><td><write>globalParam.opit2n12</write></td><td><write>globalParam.opit2n13</write></td></tr>
+ <tr><th>&#x03B1;<sub>0</sub>, &#x00B0;</th><td><input type="number" id="alfa0Opit21" width="100"/></td><td><input type="number" id="alfa0Opit22" width="100"/></td><td><input type="number" id="alfa0Opit23" width="100"/></td></tr>
+ </table>
+ </asset>
+ </figure>
+ <figure>
+ <caption>Модель</caption>
+ <asset>
+ <figure align="center">
+ <object type="commonmodel" border="0" width="900" height="520" file="355120/355120.js"/>
+ </figure>
+ </asset>
+ </figure>
+ </tabs>
+</conditions>
+<mixanswer check="none" comment="none">
+</mixanswer>
+</content>
+</page>

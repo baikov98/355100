@@ -1,0 +1,1 @@
+﻿var content383205='<?xml version="1.0" encoding="UTF-8"?><page subtype="text" scrollable="false"><title>Инструкция</title><content><figure> <object border="0" width="840" height="490" file="383224.png"/></figure></content></page>';
